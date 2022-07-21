@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 15px;
+            margin: 20px;
+        }
+
+        nav {
+            background-color: lightgrey;
+            padding: 8px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(104, 75, 75);
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(133, 31, 31);;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px 15px;
+            text-align: justify;
+            margin: 20px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 20px 0px;
+        }
+
+        article > aside {
+            background-color: rgb(122, 122, 122);
+            padding: 5px;
+            border-radius: 10px 0px;
+            box-shadow: 1px 2px 2px black;
+        }
+
+        article > aside > p {
+            margin: 0px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.596);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Política Brasileira</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellat delectus a magnam quos. Dignissimos ducimus officiis, eligendi expedita nam, maxime reiciendis obcaecati optio maiores laboriosam repellat veniam voluptatum velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ullam corporis. Reiciendis veniam saepe, odio, voluptate consectetur, excepturi incidunt quasi reprehenderit eveniet dolorum autem voluptas ad corporis mollitia quos et.</p>
+                <aside>
+                    <p>Artigo escrito por Luiz Henrick</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Luiz Henrick</p>
+    </footer>
+</body>
+</html>

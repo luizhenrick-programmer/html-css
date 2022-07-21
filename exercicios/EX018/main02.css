@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'punk-font';
+    src: url(./fonts/Hit\ me\,\ punk!\ 01.ttf) format('truetype'), 
+         url(./fonts/Hit-me_-punk_-01.otf) format('opentype');
+}
+
+/*
+    Tipos de Format():
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Tipography)
+        - svg
+*/
+
+body {
+    background-color: #0000;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'punk-font', monospace;
+    font-weight: normal;
+    font-size: 4em;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    
+}
+ 

@@ -1,0 +1,59 @@
+@charset 'UTF-8';
+
+/*
+    Não podemos usar o mesmo id para diferentes tags
+    Já a classe pode ser add em várias tags ao mesmo tempo
+*/
+
+body {
+     background-color: rgb(255, 228, 196);
+}
+
+h1#main {
+    color: rgb(36, 131, 126);
+    text-align: center;
+}
+
+h1#html {
+    color: rgb(216, 112, 147);
+    text-align: center;
+}
+
+h2#html-Basico {
+    color: rgb(34, 65, 122);
+    text-align: right;
+}
+
+h2#html-Intermediario {
+    color: rgb(34, 65, 122);
+    text-align: left;
+}
+
+h2#html-Avancado {
+    color: rgb(34, 65, 122);
+    text-align: right;
+}
+
+h1#css {
+    text-align: left;
+    color: rgb(216, 112, 147);
+}
+
+h2#css-basico {
+    color: rgb(34, 65, 122);
+    text-align: right;
+}
+
+h2#css-intermediario {
+    color: rgb(34, 65, 122);
+    text-align: left;
+}
+
+h2#css-avancado {
+    color: rgb(34, 65, 122);
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}
