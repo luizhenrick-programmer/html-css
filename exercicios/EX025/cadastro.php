@@ -1,2 +1,2 @@
 Os dados preenchidos foram enviados!
-Aprenda PHP para saber o que fazer com eles
+Aprenda PHP para saber o que fazer com eles.
