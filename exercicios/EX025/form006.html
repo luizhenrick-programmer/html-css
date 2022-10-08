@@ -7,24 +7,22 @@
     <title>Formulários</title>
 </head>
 <body>
-    <h1>Teste de Formúlarios</h1>
+    <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
-        <fieldset>
-            <legend>Sexo</legend>
-            <input type="radio" name="sexo" id="imas"> <label for="imas">Masculino</label>
-            <input type="radio" name="sexo" id="ifem"> <label for="ifem">Feminino</label>
-        </fieldset>
-        <fieldset>
-            <legend>Esportes Favoritos</legend>
-            <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete</label><br>
-            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label><br>
-            <input type="checkbox" name="nat" id="inat"> <label for="inat">Natação</label><br>
-            <input type="checkbox" name="ten" id="iten"> <label for="iten">Tênis</label><br>
-        </fieldset>
         <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar Dados">
+            <label for="icolor">Cor: </label> 
+            <input type="color" name="color" id="icolor" value="#ffff">
         </p>
+        <p>
+            <label for="irange">Nível de Saturação: </label>
+            <input type="range" name="range" id="irange" min="0" max="100" value="50">
+        </p>
+        <p>
+            <label for="ifile">Foto de perfil: </label>
+            <input type="file" name="file" id="ifile">
+        </p>
+        <p><input type="submit" value="Enviar"></p>
+        <p><input type="reset" value="Limpar Dados"></p>
     </form>
 </body>
 </html>
