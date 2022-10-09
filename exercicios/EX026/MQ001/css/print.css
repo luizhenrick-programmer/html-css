@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+/* ESTILO DE PERSONALIZAÇÃO PARA IMPRESSÃO*/
+
+* {
+    margin: 10px;
+    padding: 2px;
+}
+
+html ,body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    width: 95%;
+}
+
+article > p {
+    text-align: justify;
+}
+
+article::after{
+    content: "Esse artigo foi impresso por www.next-level.com";
+}
